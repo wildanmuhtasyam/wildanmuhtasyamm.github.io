@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Alfarizi and Nabila Wedding</title>
+    <link rel="stylesheet" type="text/css" href="theme.css"> 
+    <link rel="stylesheet" type="text/css" href="./icons/css/all.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="heading">
+        Alfarizi and Nabila
+        <span class="heading-subtext"> are getting married!</span>
+      </h1>
+    </header>
+    <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">RSVP</a> 
+    <section class="section">
+      <h2 class="sub-heading">Overview</h2>
+      <p>Pernikahan Alfarizi dan Nabila adalah momen istimewa yang menyatukan dua insan dalam ikatan suci. Acara tersebut dilaksanakan dengan khidmat dan penuh kebahagiaan, dihadiri oleh keluarga, teman-teman, dan kerabat terdekat. Dekorasi pernikahan dihiasi dengan tema yang elegan dan romantis, mencerminkan kepribadian pasangan.
+        Prosesi pernikahan berjalan lancar dengan rangkaian acara mulai dari akad nikah, di mana janji suci diucapkan, hingga resepsi yang meriah. Suasana hangat dan penuh cinta mewarnai pernikahan tersebut, dengan Alfarizi dan Nabila tampak sangat bahagia dan serasi. Para tamu turut merasakan kebahagiaan pasangan dengan suasana kekeluargaan dan keceriaan.
+    </section>
+    <section class="section">
+      <h2 class="sub-heading">The Details</h2>
+      <div class="details">
+        <i class="fas fa-calendar-check"></i>
+        <h3 class="details-heading">When</h3>
+        <p>Januari 12, 2025</p>
+        <a title="Add to Calendar" rel="noopener" href="#" target="_blank" rel="nofollow">Add to Calendar</a>
+      </div>
+      <div class="details">
+        <i class="fas fa-map-marked-alt"></i>
+        <h3 class="details-heading">Location</h3>
+        <p><a rel="noopener" href="#">Purwasari</a>, Kuningan</p>
+        <img class="resort-image" src="./img/Alfa.jpg" alt="Alfa" />
+      </div>
+      <div class="details">
+        <i class="fas fa-suitcase"></i>
+        <h3 class="details-heading">Pesan Untuk Tamu Undangan</h3>
+        <p>Assalamualaikum warahmatullahi wabarakatuh,
+
+          Dengan segala kerendahan hati, kami mengucapkan terima kasih yang sebesar-besarnya atas kehadiran dan doa restu dari Bapak/Ibu/Saudara/i di hari bahagia kami. Kehadiran Anda semua telah menambah kebahagiaan dan kesempurnaan momen istimewa ini.
+          
+          Kami sangat menghargai waktu dan usaha yang telah diluangkan untuk turut serta merayakan hari pernikahan kami. Semoga silaturahmi yang terjalin semakin erat, dan doa-doa baik yang diberikan berbalas berkah untuk kita semua.
+          
+          Sekali lagi, terima kasih atas kehadirannya. Mohon maaf apabila terdapat kekurangan selama acara berlangsung.
+          
+          Wassalamualaikum warahmatullahi wabarakatuh.
+          
+          Hormat kami,
+          Alfarizi & Nabila<p>
+      </div>
+      <div class="details">
+        <i class="fas fa-plane-departure"></i>
+        <h3 class="details-heading">Penerbangan</h3>
+        <p>Untuk tamu undangan yang diluar jawa barat jangan khawatir karena kami sudah meniyapkan ticket pesawat dengan maskapai lion air<p>
+      </div>
+      <div class="details">
+        <i class="fas fa-asterisk"></i>
+        <h3 class="details-heading">Kami Tunggu</h3>
+        <p>Pada tanggal 12 januari 2025
+      </div>
+      <div class="details">
+        <i class="fas fa-reply"></i>
+        <h3 class="details-heading" id="rsvp">A&N</h3>
+        <p>[12 JANUARI 2025 ]</p>
+        <!-- Include Embedded link of Google Form here in place of # -->
+        <!-- <iframe title="RSVP" src="" style="width:100%;" height="960" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+      </div>
+    </section>
+    <script src="./js/smooth-scroll.polyfills.min.js"></script>
+    <script defer>
+      var scroll = new SmoothScroll('a[href*="#"]');
+      var rsvpButton = document.getElementById('rsvpButton')
+      rsvpButton.addEventListener('click',hideButton,false);
+
+      function hideButton() {
+        rsvpButton.style.display = 'none';
+      }   
+    </script>
+  </body>
+</html>
